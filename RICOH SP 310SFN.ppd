@@ -1,0 +1,365 @@
+*PPD-Adobe: "4.3"
+*%%%% PPD file for PCL Laser Printer with CUPS.
+*%%%% Created by the CUPS PPD Compiler CUPS v1.6.2.
+*% Copyright 2007-2012 by Apple Inc.
+*% (C) Copyright 1994-2014 Primax Electronics Ltd. All Rights Reserved.
+*% 
+*% These coded instructions, statements, and computer programs are the
+*% property of Apple Inc. and are protected by Federal copyright
+*% law.  Distribution and use rights are outlined in the file "LICENSE.txt"
+*% which should have been included with this file.  If this file is
+*% file is missing or damaged, see the license at "http://www.cups.org/".
+*FormatVersion: "4.3"
+*FileVersion: "0.2"
+*LanguageVersion: English
+*LanguageEncoding: ISOLatin1
+*PCFileName: "RICOH SP 310SFN.ppd"
+*Product: "(RICOH SP 310SFN)"
+*Manufacturer: "RICOH"
+*ModelName: "RICOH SP 310SFN"
+*ShortNickName: "RICOH SP 310SFN"
+*NickName: "RICOH SP 310SFN"
+*PSVersion: "(3010.000) 0"
+*LanguageLevel: "3"
+*ColorDevice: False
+*DefaultColorSpace: Gray
+*FileSystem: False
+*Throughput: "8"
+*LandscapeOrientation: Plus90
+*TTRasterizer: Type42
+*% Driver-defined attributes...
+*1284DeviceID: "CMD:PCL;"
+*cupsBackSide: "Normal"
+*cupsVersion: 1.6
+*cupsModelNumber: 0
+*cupsManualCopies: False
+*cupsFilter:	"application/vnd.cups-postscript 0 pstopxl"
+*cupsLanguages: "en"
+
+*% CONSTRAINTS ======================================================
+*UIConstraints: *InputSlot Tray1 *PageSize Env10
+*UIConstraints: *InputSlot Tray1 *PageSize EnvMonarch
+*UIConstraints: *InputSlot Tray1 *PageSize EnvDL
+*UIConstraints: *InputSlot Tray1 *PageSize EnvC6
+*UIConstraints: *InputSlot Tray1 *PageSize EnvC5
+
+*UIConstraints: *PageSize Env10      *InputSlot Tray1
+*UIConstraints: *PageSize EnvMonarch *InputSlot Tray1
+*UIConstraints: *PageSize EnvDL      *InputSlot Tray1
+*UIConstraints: *PageSize EnvC6      *InputSlot Tray1
+*UIConstraints: *PageSize EnvC5      *InputSlot Tray1
+
+*UIConstraints: *InputSlot Tray1 *PageRegion Env10
+*UIConstraints: *InputSlot Tray1 *PageRegion EnvMonarch
+*UIConstraints: *InputSlot Tray1 *PageRegion EnvDL
+*UIConstraints: *InputSlot Tray1 *PageRegion EnvC5
+*UIConstraints: *InputSlot Tray1 *PageRegion EnvC6
+
+*UIConstraints: *PageRegion Env10 *InputSlot Tray1
+*UIConstraints: *PageRegion EnvMonarch *InputSlot Tray1
+*UIConstraints: *PageRegion EnvDL *InputSlot Tray1
+*UIConstraints: *PageRegion EnvC5     *InputSlot Tray1
+*UIConstraints: *PageRegion EnvC6     *InputSlot Tray1
+
+*UIConstraints: *InputSlot Manual *PageSize 8x13
+*UIConstraints: *InputSlot Manual *PageSize 8_25x13
+*UIConstraints: *InputSlot Manual *PageSize 8_5x13
+
+*UIConstraints: *PageSize 8x13      *InputSlot Manual
+*UIConstraints: *PageSize 8_25x13   *InputSlot Manual
+*UIConstraints: *PageSize 8_5x13    *InputSlot Manual
+
+
+*UIConstraints: *InputSlot Manual *PageRegion 8x13
+*UIConstraints: *InputSlot Manual *PageRegion 8_25x13
+*UIConstraints: *InputSlot Manual *PageRegion 8_5x13
+
+*UIConstraints: *PageRegion 8x13      *InputSlot Manual
+*UIConstraints: *PageRegion 8_25x13   *InputSlot Manual
+*UIConstraints: *PageRegion 8_5x13    *InputSlot Manual
+
+*UIConstraints: *Duplex DuplexNoTumble *PageSize A5
+*UIConstraints: *Duplex DuplexNoTumble *PageSize A6
+*UIConstraints: *Duplex DuplexNoTumble *PageSize 8x13
+*UIConstraints: *Duplex DuplexNoTumble *PageSize 8_25x13
+*UIConstraints: *Duplex DuplexNoTumble *PageSize 8_5x13
+*UIConstraints: *Duplex DuplexNoTumble *PageSize HLT
+*UIConstraints: *Duplex DuplexNoTumble *PageSize Kai16
+*UIConstraints: *Duplex DuplexNoTumble *PageSize JISB6
+*UIConstraints: *Duplex DuplexNoTumble *PageSize Env10
+*UIConstraints: *Duplex DuplexNoTumble *PageSize EnvMonarch
+*UIConstraints: *Duplex DuplexNoTumble *PageSize EnvC5
+*UIConstraints: *Duplex DuplexNoTumble *PageSize EnvC6
+*UIConstraints: *Duplex DuplexNoTumble *PageSize EnvDL
+*UIConstraints: *Duplex DuplexNoTumble *PageSize B5
+*UIConstraints: *Duplex DuplexNoTumble *PageSize Executive
+
+*UIConstraints: *PageSize A5        *Duplex DuplexNoTumble
+*UIConstraints: *PageSize A6        *Duplex DuplexNoTumble
+*UIConstraints: *PageSize 8_25x13   *Duplex DuplexNoTumble
+*UIConstraints: *PageSize 8x13      *Duplex DuplexNoTumble
+*UIConstraints: *PageSize 8_5x13    *Duplex DuplexNoTumble
+*UIConstraints: *PageSize HLT       *Duplex DuplexNoTumble
+*UIConstraints: *PageSize Kai16     *Duplex DuplexNoTumble
+*UIConstraints: *PageSize JISB6     *Duplex DuplexNoTumble
+*UIConstraints: *PageSize Env10     *Duplex DuplexNoTumble
+*UIConstraints: *PageSize EnvMonarch *Duplex DuplexNoTumble
+*UIConstraints: *PageSize EnvC5     *Duplex DuplexNoTumble
+*UIConstraints: *PageSize EnvC6     *Duplex DuplexNoTumble
+*UIConstraints: *PageSize EnvDL     *Duplex DuplexNoTumble
+*UIConstraints: *PageSize B5        *Duplex DuplexNoTumble
+*UIConstraints: *PageSize Executive *Duplex DuplexNoTumble
+
+
+*UIConstraints: *Duplex DuplexTumble *PageSize A5
+*UIConstraints: *Duplex DuplexTumble *PageSize A6
+*UIConstraints: *Duplex DuplexTumble *PageSize 8x13
+*UIConstraints: *Duplex DuplexTumble *PageSize 8_25x13
+*UIConstraints: *Duplex DuplexTumble *PageSize 8_5x13
+*UIConstraints: *Duplex DuplexTumble *PageSize HLT
+*UIConstraints: *Duplex DuplexTumble *PageSize Kai16
+*UIConstraints: *Duplex DuplexTumble *PageSize JISB6
+*UIConstraints: *Duplex DuplexTumble *PageSize Env10
+*UIConstraints: *Duplex DuplexTumble *PageSize EnvMonarch
+*UIConstraints: *Duplex DuplexTumble *PageSize EnvC5
+*UIConstraints: *Duplex DuplexTumble *PageSize EnvC6
+*UIConstraints: *Duplex DuplexTumble *PageSize EnvDL
+*UIConstraints: *Duplex DuplexTumble *PageSize B5    
+*UIConstraints: *Duplex DuplexTumble *PageSize Executive
+
+*UIConstraints: *PageSize A5        *Duplex DuplexTumble
+*UIConstraints: *PageSize A6        *Duplex DuplexTumble
+*UIConstraints: *PageSize 8x13      *Duplex DuplexTumble
+*UIConstraints: *PageSize 8_25x13   *Duplex DuplexTumble
+*UIConstraints: *PageSize 8_5x13    *Duplex DuplexTumble
+*UIConstraints: *PageSize HLT       *Duplex DuplexTumble
+*UIConstraints: *PageSize Kai16     *Duplex DuplexTumble
+*UIConstraints: *PageSize JISB6     *Duplex DuplexTumble
+*UIConstraints: *PageSize Env10     *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvMonarch *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvC5     *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvC6     *Duplex DuplexTumble
+*UIConstraints: *PageSize EnvDL     *Duplex DuplexTumble
+*UIConstraints: *PageSize B5        *Duplex DuplexTumble
+*UIConstraints: *PageSize Executive *Duplex DuplexTumble
+
+
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion A5
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion A6
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion 8x13
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion 8_25x13
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion 8_5x13
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion HLT
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion Kai16
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion JISB6
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion Env10
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion EnvMonarch
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion EnvC5
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion EnvC6
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion EnvDL
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion B5    
+*UIConstraints: *Duplex DuplexNoTumble *PageRegion Executive
+
+*UIConstraints: *PageRegion A5        *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion A6        *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion 8x13      *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion 8_25x13   *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion 8_5x13    *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion HLT       *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion Kai16     *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion JISB6     *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion Env10     *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion EnvMonarch *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion EnvC5     *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion EnvC6     *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion EnvDL     *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion B5        *Duplex DuplexNoTumble
+*UIConstraints: *PageRegion Executive *Duplex DuplexNoTumble
+
+
+*UIConstraints: *Duplex DuplexTumble *PageRegion A5
+*UIConstraints: *Duplex DuplexTumble *PageRegion A6
+*UIConstraints: *Duplex DuplexTumble *PageRegion 8x13
+*UIConstraints: *Duplex DuplexTumble *PageRegion 8_25x13
+*UIConstraints: *Duplex DuplexTumble *PageRegion 8_5x13
+*UIConstraints: *Duplex DuplexTumble *PageRegion HLT
+*UIConstraints: *Duplex DuplexTumble *PageRegion Kai16
+*UIConstraints: *Duplex DuplexTumble *PageRegion JISB6
+*UIConstraints: *Duplex DuplexTumble *PageRegion Env10
+*UIConstraints: *Duplex DuplexTumble *PageRegion EnvMonarch
+*UIConstraints: *Duplex DuplexTumble *PageRegion EnvC5
+*UIConstraints: *Duplex DuplexTumble *PageRegion EnvC6
+*UIConstraints: *Duplex DuplexTumble *PageRegion EnvDL
+*UIConstraints: *Duplex DuplexTumble *PageRegion B5    
+*UIConstraints: *Duplex DuplexTumble *PageRegion Executive
+
+*UIConstraints: *PageRegion A5        *Duplex DuplexTumble
+*UIConstraints: *PageRegion A6        *Duplex DuplexTumble
+*UIConstraints: *PageRegion 8x13      *Duplex DuplexTumble
+*UIConstraints: *PageRegion 8_25x13   *Duplex DuplexTumble
+*UIConstraints: *PageRegion 8_5x13    *Duplex DuplexTumble
+*UIConstraints: *PageRegion HLT       *Duplex DuplexTumble
+*UIConstraints: *PageRegion Kai16     *Duplex DuplexTumble
+*UIConstraints: *PageRegion JISB6     *Duplex DuplexTumble
+*UIConstraints: *PageRegion Env10     *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvMonarch *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvC5     *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvC6     *Duplex DuplexTumble
+*UIConstraints: *PageRegion EnvDL     *Duplex DuplexTumble
+*UIConstraints: *PageRegion B5        *Duplex DuplexTumble
+*UIConstraints: *PageRegion Executive *Duplex DuplexTumble
+
+*NonUIConstraints: *Duplex DuplexTumble *CustomPageSize True
+*NonUIConstraints: *CustomPageSize True *Duplex DuplexTumble
+
+*NonUIConstraints: *Duplex DuplexNoTumble *CustomPageSize True
+*NonUIConstraints: *CustomPageSize True *Duplex DuplexNoTumble
+
+*OpenUI *PageSize/PageSize: PickOne
+*OrderDependency: 10 AnySetup *PageSize
+*DefaultPageSize: Letter
+*PageSize A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageSize B5/B5 (JIS): "<</PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*PageSize A5/A5: "<</PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*PageSize A6/A6: "<</PageSize[297 420]/ImagingBBox null>> setpagedevice "
+*PageSize Legal/Legal: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageSize Letter/Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageSize HLT/5 1<2F>2<22> x 8 1<2F>2<22>:"<</PageSize[396 612]/ImagingBBox null>>setpagedevice "
+*PageSize Executive/Executive: "<</PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageSize 8x13/8<22> x 13<22>: "<</PageSize [576 936]/ImagingBBox null>>setpagedevice"
+*PageSize 8_25x13/8 1<2F>4<22> x 13<22>: "<</PageSize [594 936]/ImagingBBox null>>setpagedevice"
+*PageSize 8_5x13/8 1<2F>2<22> x 13<22>: "<</PageSize[612 936]/ImagingBBox null>>setpagedevice"
+*PageSize JISB6/B6 (JIS): "<</PageSize[363 516]/ImagingBBox null>>setpagedevice "
+*PageSize Env10/Com10 Env.: "<</PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageSize EnvMonarch/Monarch Env.: "<</PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageSize EnvDL/DL Env.: "<</PageSize[312 624]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC6/C6 Env.: "<</PageSize[323 459]/ImagingBBox null>>setpagedevice"
+*PageSize EnvC5/C5 Env.: "<</PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*PageSize Kai16/16K: "<</PageSize[553 757]/ImagingBBox null>>setpagedevice "
+*CloseUI: *PageSize
+
+*OpenUI *PageRegion/PageSize: PickOne
+*OrderDependency: 10 AnySetup *PageRegion
+*DefaultPageRegion: Letter
+*PageRegion A4/A4: "<</PageSize[595 842]/ImagingBBox null>>setpagedevice"
+*PageRegion B5/B5 (JIS): "<</PageSize[516 729]/ImagingBBox null>>setpagedevice"
+*PageRegion A5/A5: "<</PageSize[420 595]/ImagingBBox null>>setpagedevice"
+*PageRegion A6/A6: "<</PageSize[297 420]/ImagingBBox null>>setpagedevice "
+*PageRegion Legal/Legal: "<</PageSize[612 1008]/ImagingBBox null>>setpagedevice"
+*PageRegion Letter/Letter: "<</PageSize[612 792]/ImagingBBox null>>setpagedevice"
+*PageRegion HLT/5 1<2F>2<22> x 8 1<2F>2<22>: "<</PageSize[396 612]/ImagingBBox null>>setpagedevice"
+*PageRegion Executive/Executive: "<</PageSize[522 756]/ImagingBBox null>>setpagedevice"
+*PageRegion 8x13/8<22> x 13<22>: "<</PageSize[576 936]/ImagingBBox null>>setpagedevice"
+*PageRegion 8_25x13/8 1<2F>4<22> x 13<22>: "<</PageSize[594 936]/ImagingBBox null>>setpagedevice"
+*PageRegion 8_5x13/8 1<2F>2<22> x 13<22>: "<</PageSize[612 936]/ImagingBBox null>>setpagedevice"
+*PageRegion JISB6/B6 (JIS): "<</PageSize[363 516]/ImagingBBox null>>setpagedevice "
+*PageRegion Env10/Com10 Env.: "<</PageSize[297 684]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvMonarch/Monarch Env.: "<</PageSize[279 540]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvDL/DL Env.: "<</PageSize[312 624]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC6/C6 Env.: "<</PageSize[323 459]/ImagingBBox null>>setpagedevice"
+*PageRegion EnvC5/C5 Env.: "<</PageSize[459 649]/ImagingBBox null>>setpagedevice"
+*PageRegion Kai16/16K: "<</PageSize[553 757]/ImagingBBox null>>setpagedevice "
+*CloseUI: *PageRegion
+
+
+*DefaultImageableArea: Letter
+*ImageableArea A4:            "12 12 583 830"
+*ImageableArea B5:            "12 12 504 717"
+*ImageableArea A5:            "12 12 408 583"
+*ImageableArea A6:            "12 12 285 408"
+*ImageableArea Legal:         "12 12 600 996"
+*ImageableArea Letter:        "12 12 600 780"
+*ImageableArea HLT:           "12 12 384 600"
+*ImageableArea Executive:     "12 12 510 744"
+*ImageableArea 8x13:          "12 12 564 924"
+*ImageableArea 8_25x13:       "12 12 582 924"
+*ImageableArea 8_5x13:        "12 12 600 924"
+*ImageableArea JISB6:         "12 12 351 504"
+*ImageableArea Env10:         "12 12 285 672"
+*ImageableArea EnvMonarch:    "12 12 267 528"
+*ImageableArea EnvDL:         "12 12 300 612"
+*ImageableArea EnvC6:         "12 12 311 447"
+*ImageableArea EnvC5:         "12 12 447 637"
+*ImageableArea Kai16:         "12 12 541 745"
+
+*DefaultPaperDimension: Letter
+*PaperDimension A4/A4: "595 842"
+*PaperDimension B5/B5 (JIS): "516 729"
+*PaperDimension A5/A5: "420 595"
+*PaperDimension A6/A6: "297 420"
+*PaperDimension Legal/Legal: "612 1008"
+*PaperDimension Letter/Letter: "612 792"
+*PaperDimension HLT/5 1<2F>2<22> x 8 1<2F>2<22>: "396 612"
+*PaperDimension Executive/Executive: "522 756"
+*PaperDimension 8x13/8<22> x 13<22>:  "576 936"
+*PaperDimension 8_25x13/8 1<2F>4<22> x 13<22>: "594 936"
+*PaperDimension 8_5x13/8 1<2F>2<22> x 13<22>:  "612 936"
+*PaperDimension JISB6/B6 (JIS): "363 516"
+*PaperDimension Env10/Com10 Env.: "297 684"
+*PaperDimension EnvMonarch/Monarch Env.: "279 540"
+*PaperDimension EnvDL/DL Env.: "312 624"
+*PaperDimension EnvC6/C6 Env.: "323 459"
+*PaperDimension EnvC5/C5 Env.: "459 649"
+*PaperDimension Kai16/16K:  "553 757"
+
+*OpenUI *Resolution/Resolution: PickOne
+*OrderDependency: 20 AnySetup *Resolution
+*DefaultResolution: 600dpi
+*Resolution 600dpi/600dpi: "<</HWResolution[600 600]/cupsBitsPerColor 1/cupsRowCount 0/cupsRowFeed 0/cupsRowStep 0/cupsColorSpace 3>>setpagedevice"
+*CloseUI: *Resolution
+
+*OpenUI *InputSlot/Input Tray: PickOne
+*OrderDependency: 10 AnySetup *InputSlot
+*DefaultInputSlot: AutoSelect
+*InputSlot AutoSelect/Auto Select: "<</MediaPosition 1>>setpagedevice"
+*InputSlot Manual/Bypass Tray: "<</MediaPosition 3>>setpagedevice"
+*InputSlot Tray1/Tray 1: "<</MediaPosition 4>>setpagedevice"
+*CloseUI: *InputSlot
+
+
+*OpenUI *Duplex/Duplex: PickOne
+*OrderDependency: 20 AnySetup *Duplex
+*DefaultDuplex: None
+*Duplex None/Off: "<</Duplex false>>setpagedevice"
+*Duplex DuplexNoTumble/Long-Edge Binding: "<</Duplex true/Tumble false>>setpagedevice"
+*Duplex DuplexTumble/Short-Edge Binding: "<</Duplex true/Tumble true>>setpagedevice"
+*CloseUI: *Duplex
+
+
+*DefaultFont: Courier
+*Font AvantGarde-Book: Standard "(1.05)" Standard ROM
+*Font AvantGarde-BookOblique: Standard "(1.05)" Standard ROM
+*Font AvantGarde-Demi: Standard "(1.05)" Standard ROM
+*Font AvantGarde-DemiOblique: Standard "(1.05)" Standard ROM
+*Font Bookman-Demi: Standard "(1.05)" Standard ROM
+*Font Bookman-DemiItalic: Standard "(1.05)" Standard ROM
+*Font Bookman-Light: Standard "(1.05)" Standard ROM
+*Font Bookman-LightItalic: Standard "(1.05)" Standard ROM
+*Font Courier: Standard "(1.05)" Standard ROM
+*Font Courier-Bold: Standard "(1.05)" Standard ROM
+*Font Courier-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Courier-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica: Standard "(1.05)" Standard ROM
+*Font Helvetica-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Bold: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-BoldOblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Narrow-Oblique: Standard "(1.05)" Standard ROM
+*Font Helvetica-Oblique: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Bold: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-BoldItalic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Italic: Standard "(1.05)" Standard ROM
+*Font NewCenturySchlbk-Roman: Standard "(1.05)" Standard ROM
+*Font Palatino-Bold: Standard "(1.05)" Standard ROM
+*Font Palatino-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Palatino-Italic: Standard "(1.05)" Standard ROM
+*Font Palatino-Roman: Standard "(1.05)" Standard ROM
+*Font Symbol: Special "(001.005)" Special ROM
+*Font Times-Bold: Standard "(1.05)" Standard ROM
+*Font Times-BoldItalic: Standard "(1.05)" Standard ROM
+*Font Times-Italic: Standard "(1.05)" Standard ROM
+*Font Times-Roman: Standard "(1.05)" Standard ROM
+*Font ZapfChancery-MediumItalic: Standard "(1.05)" Standard ROM
+*Font ZapfDingbats: Special "(001.005)" Special ROM
+*% End of ppd
